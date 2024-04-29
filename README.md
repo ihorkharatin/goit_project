@@ -1,3 +1,3 @@
 # goit_project
 Tutorrial project
-this is test mode
+this is test modegit status
