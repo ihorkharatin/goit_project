@@ -1,8 +1,10 @@
 # Logs
+secret.md
 logs
 *.log
 npm-debug.log*
-yarn-debug.log*
+yarn-debug.log*git status
+
 yarn-error.log*
 lerna-debug.log*
 .pnpm-debug.log*
@@ -78,6 +80,20 @@ web_modules/
 .env.test.local
 .env.production.local
 .env.local
+
+Ігнорувати всі .txt файли
+*.txt
+
+Ігнорувати конкретний файл
+my-passwords.txt
+
+Ігнорувати всі файли в певній папці
+drafts/*
+
+Ігнорувати всі .txt файли, крім plans.txt
+*.txt
+!plans.txt
+
 
 # parcel-bundler cache (https://parceljs.org/)
 .cache
